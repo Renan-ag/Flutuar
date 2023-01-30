@@ -1,0 +1,85 @@
+:root {
+    --color-1: #3F3D56;
+    --color-2: #EE24FF;
+    --color-3: #828282;
+    --color-4: #ECEFF2;
+    --color-5: #CDCDCD;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--color-3);
+    height: 100vh;
+
+    background-image: url("./imgs/Wave.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin: 0;
+}
+
+#hero {
+    max-width: 620px;
+    min-width: 360px;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#hero header {
+    margin-bottom: 2rem;
+}
+
+#hero main {
+    margin-bottom: 4rem;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0;
+    color: var(--color-1);
+}
+
+h1 span {
+    font-weight: bold;
+    color: var(--color-2);
+}
+
+span,
+a {
+    font-weight: bold;
+    color: var(--color-1);
+}
+
+footer {
+    text-align: center;
+}
+
+.line {
+    width: 24.5rem;
+
+    border: 1px solid var(--color-5);
+    margin: 0 auto 1rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a + a {    
+    margin-left: 3rem;
+}
+
+@media screen and (max-height: 730px) {
+    body{
+        background: none;
+    }
+}
+
+@media screen and (max-width: 625px){
+    html {
+        font-size: 12px;
+    }
+}
