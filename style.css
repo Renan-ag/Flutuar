@@ -82,4 +82,8 @@ footer a + a {
     html {
         font-size: 12px;
     }
+    
+    body{
+        background: none;
+    }
 }
